@@ -90,7 +90,35 @@ p {
   font-size: 30px;
   text-align: center;
 }
+.logo {
+  max-width: 120px;
+}
+nav {
+  padding: 30px 0 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 35px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  line-height: 45px;
+  margin-left: 30px;
+}
+nav a {
+  font-size: 25px;
+  color: var(--font-primary-color);
+  text-decoration: none;
+}
 
+nav a:hover,
+nav li.active a {
+  color: #1f1a29;
+  text-decoration: underline 6px #cdd6bc;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -98,6 +126,9 @@ p {
   }
   h2 {
     font-size: 44px;
+  }
+  nav a {
+    font-size: 16px;
   }
   .hero {
     padding: 80px 20px;
