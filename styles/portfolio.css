@@ -27,7 +27,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -45,7 +45,7 @@ p {
   background: var(--secondary-color);
   color: var(--font-primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
   transition: 100s;
 }
 .hero h2 {
@@ -56,7 +56,7 @@ p {
   font-size: 24px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -128,6 +128,9 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
+footer .code-link {
+  font-size: 12px;
+}
 .logo {
   max-width: 120px;
 }
@@ -165,7 +168,7 @@ nav li.active a {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 18px;
   }
   nav a {
