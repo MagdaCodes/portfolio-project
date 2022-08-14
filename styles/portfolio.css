@@ -93,6 +93,7 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+
 footer {
   margin: 60px;
 }
@@ -174,7 +175,9 @@ nav li.active a {
   nav a {
     font-size: 16px;
   }
-
+  .logo {
+    max-width: 90px;
+  }
   .hero {
     padding: 80px 20px;
   }
